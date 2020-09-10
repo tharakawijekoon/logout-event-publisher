@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventPublisher name="External-Publisher-wso2event-Logout"
+  statistics="disable" trace="disable" xmlns="http://wso2.org/carbon/eventpublisher">
+  <from streamName="org.wso2.is.custom.stream.SessionTerminateData" version="1.0.0"/>
+  <mapping customMapping="disable" type="json"/>
+  <to eventAdapterType="http">
+        <property name="http.client.method">HttpPost</property>
+        <property name="http.url">http://localhost:8281/services/wso2login</property>
+  </to>
+</eventPublisher>
