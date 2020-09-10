@@ -64,11 +64,11 @@
     },
     {
       "name": "forceAuthEnabled",
-      "type": "BOOL"
+      "type": "STRING"
     },
     {
       "name": "passiveAuthEnabled",
-      "type": "BOOL"
+      "type": "STRING"
     },
     {
       "name": "rolesCommaSeparated",
@@ -84,7 +84,7 @@
     },
     {
       "name": "authStepSuccess",
-      "type": "BOOL"
+      "type": "STRING"
     },
     {
       "name": "stepAuthenticator",
@@ -92,7 +92,7 @@
     },
     {
       "name": "isFirstLogin",
-      "type": "BOOL"
+      "type": "STRING"
     },
     {
       "name": "identityProviderType",
